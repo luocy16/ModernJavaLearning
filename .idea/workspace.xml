@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a6bea4-edf1-44bc-89cd-75a299da1ced" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LambdaLearning/InternalFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaLearning/InternalFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambdaLearning/FancyWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +32,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LambdaLearning/FileShower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+            <state relative-caret-position="191">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LambdaLearning/InternalFunc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="38" lean-forward="true" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,12 +54,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LambdaLearning/InternalFunc.java">
+        <entry file="file://$PROJECT_DIR$/src/LambdaLearning/FancyWay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <state relative-caret-position="24">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,14 +110,15 @@
         <option value="$PROJECT_DIR$/src/LambdaLearning/FileShower.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/LambdaLearning/InternalFunc.java" />
+        <option value="$PROJECT_DIR$/src/LambdaLearning/FancyWay.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,6 +143,13 @@
               <item name="learning_modern_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LambdaLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning_modern_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning_modern_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LambdaLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="FileShower.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -157,7 +182,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InternalFunc">
+  <component name="RunManager" selected="Application.FancyWay">
+    <configuration name="FancyWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdaLearning.FancyWay" />
+      <module name="learning_modern_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LambdaLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileShower (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LambdaLearning.FileShower" />
       <extension name="coverage">
@@ -206,6 +244,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FancyWay" />
         <item itemvalue="Application.InternalFunc" />
         <item itemvalue="Application.FileShower" />
         <item itemvalue="Application.FileShower (1)" />
@@ -224,12 +263,12 @@
       <updated>1571020396635</updated>
       <workItem from="1571020401094" duration="787000" />
       <workItem from="1571021762898" duration="8252000" />
-      <workItem from="1571040860668" duration="2577000" />
+      <workItem from="1571040860668" duration="10106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11616000" />
+    <option name="totallyTimeSpent" value="19145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,16 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LambdaLearning/FileShower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -334,12 +363,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LambdaLearning/InternalFunc.java">
+    <entry file="file://$PROJECT_DIR$/src/LambdaLearning/FileShower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        <state relative-caret-position="191">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LambdaLearning/InternalFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="38" lean-forward="true" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LambdaLearning/FancyWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
           </folding>
         </state>
       </provider>
